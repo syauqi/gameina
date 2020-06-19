@@ -1,8 +1,8 @@
 <h1 align="center">Selamat datang di GameINA! 👋</h1>
 
-![image_processing20200618-11260-vtpn85](https://user-images.githubusercontent.com/46257169/85118696-ddfeaa80-b24a-11ea-8a9e-0cdb671fb755.png)
-
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/46257169/85118696-ddfeaa80-b24a-11ea-8a9e-0cdb671fb755.png" alt="Sublime's custom image"/>
+</p>
 
 [![](https://img.shields.io/github/issues/Syauqizaidan/GameINA?style=flat-square)](https://img.shields.io/github/issues/Syauqizaidan/GameINA?style=flat-square) ![](https://img.shields.io/github/stars/Syauqizaidan/GameINA?style=flat-square)
 ![](https://img.shields.io/github/forks/Syauqizaidan/GameINA?style=flat-square) ![](https://img.shields.io/github/license/Syauqizaidan/GameINA?style=flat-square) [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg?style=flat-square)](https://saythanks.io/to/zaidanline67%40gmail.com) [![HitCount](http://hits.dwyl.com/syauqizaidan/https://githubcom/Syauqizaidan/GameINA.svg)](http://hits.dwyl.com/syauqizaidan/https://githubcom/Syauqizaidan/GameINA)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg?style=flat-square)](https://code.visualstudio.com/) [![GitHub followers](https://img.shields.io/github/followers/syauqizaidan.svg?style=flat-square&label=Follow&maxAge=2592000)](https://github.com/Syauqizaidan?tab=followers)
