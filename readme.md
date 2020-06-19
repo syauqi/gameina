@@ -39,9 +39,9 @@ Saya buat Open Souce karena sebenarnya project ini belum sepenuhnya jadi. Masih 
 **Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang.** Kalian cukup fork lalu clone dan jalankan di localhost saja ya! atau kalian bisa download project ini via github apabila kalian belum familiar dengan github.
 
 ### 📆 <a href="http://syauqi.js.org/">Release Date</a>
-**Release date : 1 April 2020
-Version 1 Release : 17 April 2020**
-> Learnify dapat kalian kembangkan lagi sesuai kebutuhan kalian. Untuk sementara ini, Learnify tidak akan saya kembangkan. Namun jika kalian ingin berkontribusi saya akan mereview nya !
+**Release date : 28 February 2020
+Public Release : 19 June 2020**
+> GameINA dapat kalian kembangkan lagi sesuai kebutuhan kalian. Untuk sementara ini, GameINA tidak akan saya kembangkan. Namun jika kalian ingin berkontribusi saya akan mereview nya !
 
 ------------
 
@@ -49,15 +49,17 @@ Version 1 Release : 17 April 2020**
  ### 👤 Default Account for testing
 	
 **Admin Default Account**
+- http://localhost/gameina/welcome/admin
 - Email : admin@gmail.com 
-- Password : admin
+- Password : 123admin123
 
-**Students Default Account**
-- Email : zaidanline67@gmail.com
+**User Default Account**
+- Email : Dummy@gmail.com
 - Password : 123456
 
 **Teacher Default Account**
-- Email : zaidanline67@gmail.com
+- http://localhost/GameINA/welcome/publisher
+- Email : Maantan@gmail.com
 - Password : 123456
 
 ------------
@@ -67,14 +69,12 @@ Version 1 Release : 17 April 2020**
 - Versi PHP7 ke atas dikarenakan saya memakai function dari PHP7
 - Internet ( Karena saya memakai CDN Bootstrap )
 - XAMPP ( Atau apps web server lain )
-- Setting max_upload di php.ini
-- Setting post_max di php.ini
 - Web Browser
 
 
 ## 💻 Install
-- Download learnify atau fork lalu clone di computer kalian.
-- Upload database " Learnify.sql " ke dbms favourite kalian.
+- Download GameINA atau fork lalu clone di computer kalian.
+- Upload database " gameina.sql " ke dbms favourite kalian.
 - Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
 - Selamat Menikmati !
 
@@ -97,21 +97,19 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Ber
 - Devover 🤩
 - Colorlib.com 😬
 - Nauval Azhar 🥰
-- Kalian yang support Learnify 😚
+- Kalian yang support GameINA 😚
 
 
 ## 📝 License
 - Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
-- **Learnify is open-sourced software licensed under the MIT license.**
+- **GameINA is open-sourced software licensed under the MIT license.**
 
-## 🎥 Video Source
-**Thanks to youtube dan para uploader video yang ada di learnify yang bersedia untuk menjadi data default bagi project ini.**
-https://pastebin.pl/view/c3608c25
+
 
 ------------
 
 - Terima kasih atas support nya semua!
 - Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
 - **Made with ❤️ by Syauqi Zaidan Khairan Khalaf .**
-- Learnify is open-sourced software licensed under the MIT license.
+- GameINA is open-sourced software licensed under the MIT license.
 
