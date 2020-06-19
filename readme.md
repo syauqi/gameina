@@ -95,7 +95,6 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Ber
 - Allah SWT  😇
 - Family 🤗
 - Devover 🤩
-- Colorlib.com 😬
 - Nauval Azhar 🥰
 - Kalian yang support GameINA 😚
 
