@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
+-- version 5.0.2
+-- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 12, 2020 at 03:46 AM
--- Server version: 10.1.10-MariaDB
--- PHP Version: 7.0.2
+-- Generation Time: Jun 19, 2020 at 12:43 PM
+-- Server version: 10.4.13-MariaDB
+-- PHP Version: 7.4.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -201,7 +202,8 @@ CREATE TABLE `publisher` (
 --
 
 INSERT INTO `publisher` (`id_publisher`, `nama_publisher`, `nama_perusahaan`, `email_publisher`, `image`, `password`, `is_active`, `date_created`) VALUES
-(25, 'Syauqi Zaidan', 'Desienfy', 'syaufykhairan@gmail.com', 'k4n5pyovt5c41.jpg', '$2y$10$usZznYoh9n4i89ySFivE6elyY03RH/Zm9U.EC/Q.2qHwjA9VwcEvO', '1', 1583756973);
+(25, 'Syauqi Zaidan', 'Desienfy', 'syaufykhairan@gmail.com', 'k4n5pyovt5c41.jpg', '$2y$10$usZznYoh9n4i89ySFivE6elyY03RH/Zm9U.EC/Q.2qHwjA9VwcEvO', '1', 1583756973),
+(30, 'Maantan', 'MaantanCorp', 'maantan@gmail.com', 'default.jpg', '$2y$10$7FO.XWhJ1PBpeLUGZ.lFWuk3XvhetC90PBOQRte7m6aN1OUlfaxcy', '1', 1592549207);
 
 -- --------------------------------------------------------
 
@@ -228,7 +230,9 @@ INSERT INTO `user` (`id`, `nama`, `email`, `image`, `password`, `is_active`, `da
 (70, 'Syauqi Zaidan Khairan Khalaf', 'zaidanline67@gmail.com', 'pp.jfif', '$2y$10$fv3F2TtNn/7oi1/6i2CQkuC8CaNaSliRNfkhCKTBX5ZhX0zp1H5M.', 1, 1583582357, 200000),
 (82, 'Nurul Annisa', 'anissa30403@gmail.com', 'default.jpg', '$2y$10$iTE5h.PUrc7Cnc.O.4oAFO08u8M3doA1QXtoFcdLkKXMNcI1bla2.', 1, 1583975818, 0),
 (83, 'Ditta Audia Roza', 'audiadiit@gmail.com', 'default.jpg', '$2y$10$WaGebURGdE6l1cNzO/3SguARI3lVMktWsMpKhvrRPrvjFagSEJXK6', 1, 1583978764, 0),
-(85, 'Askal Drajat Fachrezi', 'askaldrajat@gmail.com', 'default.jpg', '$2y$10$hGskZSQQOfs2ZC4SmjtWNuvFu2sIhErh/40yI93MTvX9UrJ1khek6', 1, 1583979637, 0);
+(85, 'Askal Drajat Fachrezi', 'askaldrajat@gmail.com', 'default.jpg', '$2y$10$hGskZSQQOfs2ZC4SmjtWNuvFu2sIhErh/40yI93MTvX9UrJ1khek6', 1, 1583979637, 0),
+(88, 'Syauqi Zaidan Khairan Khalaf', 'syaaufy@gmail.com', 'default.jpg', '$2y$10$8RSmU944nBT6coUtfspRl.6UzbzmejRhiuitcCUsjZQVFaGaF9MtK', 1, 1592548950, 0),
+(89, 'Dummy', 'Dummy@gmail.com', 'default.jpg', '$2y$10$gsjeehNm3yfEd.UwaWmr0ehdFtgucO4k7g5t3iUgVVG2GnG23gL1C', 1, 1592549022, 0);
 
 -- --------------------------------------------------------
 
@@ -249,7 +253,10 @@ CREATE TABLE `user_token` (
 
 INSERT INTO `user_token` (`id`, `email`, `token`, `date_created`) VALUES
 (55, 'annisa30403@gmail.com', 'M84IrsJ2B03Ddg0aCRIbfluXXm99bv33tlBTzEVpE0I=', 1583975411),
-(59, 'dinamarsela17@gmail.com', 'wH1DOZ8hymnp2CCiSBUFILri4I+AsaCtPlRXmwWwcqA=', 1583979496);
+(59, 'dinamarsela17@gmail.com', 'wH1DOZ8hymnp2CCiSBUFILri4I+AsaCtPlRXmwWwcqA=', 1583979496),
+(63, 'syaaufy@gmail.com', 'WEohsMGvSSoQFwLCm4lT923mQNi4SqrxkjwaUDzVLmU=', 1592548950),
+(64, 'Dummy@gmail.com', 'oY3JdrQ2ZFJw2G9PHCdjueWdSIuKmk+EPbjAH25SkGA=', 1592549022),
+(65, 'maantan@gmail.com', 'sAA7OTqO8+6KMeG6O6xjReIoAld3mCuoZDM/T3z3uM8=', 1592549207);
 
 --
 -- Indexes for dumped tables
@@ -317,41 +324,50 @@ ALTER TABLE `user_token`
 --
 ALTER TABLE `admin`
   MODIFY `id_admin` int(64) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT for table `game`
 --
 ALTER TABLE `game`
   MODIFY `id_game` int(64) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+
 --
 -- AUTO_INCREMENT for table `keranjang`
 --
 ALTER TABLE `keranjang`
   MODIFY `id_keranjang` int(64) NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT for table `pembayaran`
 --
 ALTER TABLE `pembayaran`
   MODIFY `id_pembayaran` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1121;
+
 --
 -- AUTO_INCREMENT for table `playgames`
 --
 ALTER TABLE `playgames`
   MODIFY `id_game` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
+
 --
 -- AUTO_INCREMENT for table `publisher`
 --
 ALTER TABLE `publisher`
-  MODIFY `id_publisher` int(64) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id_publisher` int(64) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(64) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=86;
+  MODIFY `id` int(64) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=90;
+
 --
 -- AUTO_INCREMENT for table `user_token`
 --
 ALTER TABLE `user_token`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
