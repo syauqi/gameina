@@ -1,0 +1,507 @@
+html {
+	width: 100% !important;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	width: 100%;
+}
+
+nav {
+	box-shadow: 0px 15px 35px -5px rgba(83, 83, 83, 0.32);
+	position: relative;
+	z-index: 2;
+	height: 5em;
+	transition: 0.5s ease;
+}
+
+.nav-active {
+	transition: 0.5s ease;
+	width: 100%;
+	box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32);
+	position: fixed;
+}
+
+.navbar-brand {
+	font-size: 30px !important;
+	font-weight: 700 !important;
+}
+
+.navbar a {
+	color: white !important;
+	font-size: 19px;
+	font-weight: 600;
+	margin-right: 15px;
+}
+
+.nav-colour {
+	background-color: #d6011d;
+}
+
+.carousel {
+	margin-top: -5em;
+}
+
+.active a {
+	background-color: white;
+	color: #d6011d !important;
+	border-radius: 30px;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	box-shadow: 0px 15px 35px -5px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu a {
+	font-size: 15px;
+}
+
+.dropdown:hover>.dropdown-menu {
+	display: block;
+}
+
+.index-jumbotron {
+	background-image: url(../img/704073.png);
+	background-size: cover;
+	height: 35em;
+}
+
+.olahraga-jumbotron {
+	background-image: url(../img/704073.png);
+	background-size: cover;
+	height: 20em;
+}
+
+.petualangan-jumbotron {
+	background-image: url(../img/petualangan-jumbotron.png);
+	background-size: cover;
+	height: 20em;
+}
+
+.arcade-jumbotron {
+	background-image: url(../img/arcade-jumbotron.png);
+	background-size: cover;
+	height: 20em;
+}
+
+.aksi-jumbotron {
+	background-image: url(../img/aksi-jumbotron.png);
+	background-size: cover;
+	height: 20em;
+}
+
+.multi-jumbotron {
+	background-image: url(../img/multi-jumbotron.png);
+	background-size: cover;
+	height: 20em;
+}
+
+.game-jumbotron {
+	background-image: url(../img/game-jumbotron.png);
+	background-size: cover;
+	height: 20em;
+}
+
+.fps-jumbotron {
+	background-image: url(../img/fps-jumbotron.png);
+	background-size: cover;
+	height: 20em;
+}
+
+.racing-jumbotron {
+	background-image: url(../img/racing-jumbotron.png);
+	background-size: cover;
+	height: 20em;
+}
+
+.misteri-jumbotron {
+	background-image: url(../img/misteri-jumbotron.png);
+	background-size: cover;
+	height: 20em;
+}
+
+.edukasi-jumbotron {
+	background-image: url(../img/edukasi-jumbotron.png);
+	background-size: cover;
+	height: 20em;
+}
+
+.header-jumbotron {
+	color: white;
+	font-weight: 700;
+}
+
+.text-jumbotron {
+	color: white;
+	font-weight: 500;
+}
+
+.btn-colour {
+	font-weight: 600;
+	font-size: 20px;
+	background-color: #d6011d;
+	color: white;
+	width: 30%;
+	border-radius: 55px;
+}
+
+.btn-modal {
+	font-weight: 600;
+	font-size: 20px;
+	background-color: #d6011d;
+	color: white;
+}
+
+.btn-section {
+	font-weight: 600;
+	font-size: 20px;
+	background-color: #d6011d;
+	color: white;
+	border-radius: 30px;
+}
+
+.label-font {
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.label-font-register {
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.modal-title {
+	font-weight: 600;
+	letter-spacing: -1px;
+}
+
+.terms {
+	font-size: 12px;
+}
+
+/* info panel */
+
+.info-panel {
+	background-color: white;
+	margin-top: -80px;
+	box-shadow: 0px 15px 35px -5px rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+	padding: 30px;
+}
+
+.info-panel img {
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.info-panel h4 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.info-panel p {
+	font-size: 12px;
+	color: #acacac;
+	margin-top: -5px;
+	font-weight: 500;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 45px;
+}
+
+.b-game-card {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	padding-bottom: 150%;
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+}
+
+.b-game-card__cover {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+	background-size: cover;
+	-webkit-perspective-origin: 50% 50%;
+	perspective-origin: 50% 50%;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform-origin: top center;
+	transform-origin: top center;
+	will-change: transform;
+	-webkit-transform: skewX(0.001deg);
+	transform: skewX(0.001deg);
+	-webkit-transition: -webkit-transform 0.35s ease-in-out;
+	transition: -webkit-transform 0.35s ease-in-out;
+	transition: transform 0.35s ease-in-out;
+	transition: transform 0.35s ease-in-out, -webkit-transform 0.35s ease-in-out;
+}
+
+.b-game-card__cover::after {
+	display: block;
+	content: "";
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 120%;
+	background: linear-gradient(226deg,
+			rgba(255, 255, 255, 0.4) 0%,
+			rgba(255, 255, 255, 0.4) 35%,
+			rgba(255, 255, 255, 0.2) 42%,
+			rgba(255, 255, 255, 0) 60%);
+	-webkit-transform: translateY(-20%);
+	transform: translateY(-20%);
+	will-change: transform;
+	-webkit-transition: -webkit-transform 0.65s cubic-bezier(0.18, 0.9, 0.58, 1);
+	transition: -webkit-transform 0.65s cubic-bezier(0.18, 0.9, 0.58, 1);
+	transition: transform 0.65s cubic-bezier(0.18, 0.9, 0.58, 1);
+	transition: transform 0.65s cubic-bezier(0.18, 0.9, 0.58, 1),
+		-webkit-transform 0.65s cubic-bezier(0.18, 0.9, 0.58, 1);
+}
+
+.b-game-card:hover .b-game-card__cover {
+	-webkit-transform: rotateX(7deg) translateY(-6px);
+	transform: rotateX(7deg) translateY(-6px);
+}
+
+.b-game-card:hover .b-game-card__cover::after {
+	-webkit-transform: translateY(0%);
+	transform: translateY(0%);
+}
+
+.b-game-card::before {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+	background: rgba(0, 0, 0, 0.5);
+	box-shadow: 0 6px 12px 12px rgba(0, 0, 0, 0.4);
+	will-change: opacity;
+	-webkit-transform-origin: top center;
+	transform-origin: top center;
+	-webkit-transform: skewX(0.001deg);
+	transform: skewX(0.001deg);
+	-webkit-transition: opacity 0.5s ease-in-out,
+		-webkit-transform 0.35s ease-in-out;
+	transition: opacity 0.5s ease-in-out, -webkit-transform 0.35s ease-in-out;
+	transition: transform 0.35s ease-in-out, opacity 0.5s ease-in-out;
+	transition: transform 0.35s ease-in-out, opacity 0.5s ease-in-out,
+		-webkit-transform 0.35s ease-in-out;
+}
+
+.b-game-card:hover::before {
+	opacity: 0.6;
+	-webkit-transform: rotateX(7deg) translateY(-6px) scale(1.05);
+	transform: rotateX(7deg) translateY(-6px) scale(1.05);
+}
+
+.topup {
+	background-color: #d6011d;
+	color: white;
+}
+
+.separator {
+	height: 15vh;
+	margin-top: -25px;
+}
+
+.category {
+	margin-top: -100px;
+}
+
+
+
+.text-section {
+	font-size: 16px;
+}
+
+.end-section {
+	background-color: #d6011d;
+	color: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 15px 35px -5px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+	color: white;
+	background-color: #d6011d;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.footer-text {
+	font-weight: 700;
+}
+
+.bg-registration {
+	background-color: white;
+	border-radius: 30px;
+	box-shadow: 0px 15px 35px -5px rgba(255, 0, 34, 0.15);
+}
+
+.cta {
+	display: flex;
+	padding: 1px 20px;
+	text-decoration: none;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	color: white;
+	background: rgb(141, 0, 19);
+	transition: 1s;
+	box-shadow: 6px 6px 0 rgba(59, 11, 11, 0.589);
+	transform: skewX(-15deg);
+}
+
+.cta:focus {
+	outline: none;
+}
+
+.cta:hover {
+	transition: 0.5s;
+	box-shadow: 10px 10px 0 rgb(255, 255, 255);
+}
+
+.cta .shape-login:nth-child(2) {
+	transition: 0.5s;
+	margin-right: 0px;
+}
+
+.cta:hover .shape-login:nth-child(2) {
+	transition: 0.5s;
+	margin-right: 30px;
+}
+
+.shape-login {
+	transform: skewX(15deg);
+}
+
+.shape-login:nth-child(2) {
+	width: 10px;
+	margin-left: 30px;
+	position: relative;
+	top: 12%;
+}
+
+/**************SVG****************/
+
+path.one {
+	transition: 0.4s;
+	transform: translateX(-60%);
+}
+
+path.two {
+	transition: 0.5s;
+	transform: translateX(-30%);
+}
+
+.cta:hover path.three {
+	animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover path.one {
+	transform: translateX(0%);
+	animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover path.two {
+	transform: translateX(0%);
+	animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+
+@keyframes color_anim {
+	0% {
+		fill: white;
+	}
+
+	50% {
+		fill: #d6011d;
+	}
+
+	100% {
+		fill: white;
+	}
+}
+
+.font-lol {
+	font-weight: 900;
+	font-size: 23px;
+}
+
+.owl-carousel .nav-btn {
+	height: 47px;
+	position: absolute;
+	width: 26px;
+	cursor: pointer;
+	top: 100px !important;
+}
+
+.card-game {
+	width: 100%;
+	background-color: white;
+	height: 350px;
+}
+
+.card {
+	width: 100%;
+	background-color: white;
+	height: 350px;
+}
+
+.card-game:hover {
+	transform: scale(1.15);
+	box-shadow: 0 2.5px 2.7px rgba(0, 0, 0, 0.014),
+		0 6.3px 6.5px rgba(0, 0, 0, 0.026), 0 12.8px 12.5px rgba(0, 0, 0, 0.037),
+		0 26.3px 24.8px rgba(0, 0, 0, 0.049), 0 72px 69px rgba(0, 0, 0, 0.08);
+}
+
+.card-game {
+	transition: 0.5s ease;
+	cursor: pointer;
+	margin: 30px;
+	box-shadow: 0 1.6px 2.2px rgba(0, 0, 0, -0.018),
+		0 3.5px 5.3px rgba(0, 0, 0, -0.017), 0 5.9px 10px rgba(0, 0, 0, -0.007),
+		0 9.3px 17.9px rgba(0, 0, 0, 0.011), 0 16.3px 33.4px rgba(0, 0, 0, 0.035),
+		0 43px 80px rgba(0, 0, 0, 0.07);
+	margin-left: 0px !important;
+	border-radius: 15px !important;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 40%;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.nama_game {
+	margin-top: -30px;
+	font-size: 30px;
+}
+
+.deskripsi_game {
+	margin-top: -30px;
+	font-weight: 500;
+}
+
+.btn-games {
+	background-color: #d6011d;
+	border: none;
+	border-radius: 50px;
+}

@@ -1,0 +1,21 @@
+.action-jumbotron {
+	background-image: url(../img/704073.png);
+	background-size: cover;
+	height: 35em;
+}
+
+.header-jumbotron {
+	color: white;
+	font-weight: 700;
+}
+
+.text-jumbotron {
+	color: white;
+	font-weight: 500;
+}
+
+.aksi-jumbotron {
+	background-image: url(../img/misteri-jumbotron.png);
+	background-size: cover;
+	height: 25em;
+}
