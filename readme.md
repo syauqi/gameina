@@ -57,7 +57,7 @@ Public Release : 19 June 2020**
 - Email : Dummy@gmail.com
 - Password : 123456
 
-**Teacher Default Account**
+**Publisher Default Account**
 - http://localhost/GameINA/welcome/publisher
 - Email : Maantan@gmail.com
 - Password : 123456
