@@ -43,7 +43,7 @@ Saya buat Open Souce karena sebenarnya project ini belum sepenuhnya jadi. Masih 
  ### 👤 Default Account for testing
 	
 **Admin Default Account**
-- ../localhost/gameina/welcome/admin
+- ../gameina/welcome/admin
 - Email : admin@gmail.com 
 - Password : 123admin123
 
@@ -52,7 +52,7 @@ Saya buat Open Souce karena sebenarnya project ini belum sepenuhnya jadi. Masih 
 - Password : 123456
 
 **Publisher Default Account**
-- ../localhost/GameINA/welcome/publisher
+- ../GameINA/welcome/publisher
 - Email : Maantan@gmail.com
 - Password : 123456
 
