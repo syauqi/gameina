@@ -15,7 +15,7 @@
 </p>
 
 ### 🤔 Apa itu Gameina?
-Web Platform Portal Game Indonesia yang dibuat oleh <a href="https://github.com/syauqi"> Syauqi Zaidan Khairan Khalaf </a> . **GameINA adalah Web Portal Game Indonesia yang dilengkapi Game Market, Website Based Game dan Layanan Top-up yang Dibuat Seminimalis dan Sebagus Mungkin.** GameINA dibuat ditujukan agar para Developer dan Publisher Indonesia dapat Memasarkan Gamenya di Platform Game milik Negaranya sendiri.
+Web Platform Portal Game Indonesia yang dibuat oleh <a href="https://github.com/syauqi"> Syauqi Zaidan Khairan Khalaf </a> . **GameINA adalah Web Portal Game Indonesia yang dilengkapi gGame Market, Website Based Game dan Layanan Top-up yang dibuat seminimalis dan sebagus mungkin.** GameINA dibuat ditujukan agar para developer dan publisher indonesia dapat memasarkan gamenya di platform game milik negaranya sendiri.
 
 ### 🎉 Kenapa dibuat Open Source?
 Saya buat Open Souce karena sebenarnya project ini belum sepenuhnya jadi. Masih banyak hal yang harus ditambahkan, oleh karena itu saya jadikan open-source agar bisa dikembangkan sama sama.
