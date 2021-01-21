@@ -72,7 +72,7 @@ Saya buat Open Souce karena sebenarnya project ini belum sepenuhnya jadi. Masih 
 
 ## 🧑 Author
 
-👤 <a href="https://web.facebook.com/syaauqi"> **Syauqi Zaidan Khairan Khalaf**</a>
+👤 <a href="https://web.facebook.com/syaauqi"> **SYAUQIZAIDAN KHAIRAN KHALAF**</a>
 - Twitter : <a href="https://twitter.com/syaaauqi"> @syaaauqi</a>
 - Facebook : <a href="https://web.facebook.com/syaaauqi"> Syauqi Zaidan Khairan Khalaf</a>
 - Instagram : <a href="https://www.instagram.com/syaufy/">@syaufy </a>
@@ -85,7 +85,7 @@ Contributions, issues and feature requests di persilahkan.
 Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!**
 
 ## 📝 License
-- Copyright © 2020 Syauqi Zaidan Khairan Khalaf
+- Copyright © 2020 SYAUQIZAIDAN KHAIRAN KHALAF
 - **GameINA is open-sourced software licensed under the MIT license**
 
 ------------
