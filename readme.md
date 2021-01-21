@@ -90,4 +90,4 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Ber
 
 ------------
 
-**Made with ❤️ by Syauqi Zaidan Khairan Khalaf .**
+**Made with ❤️ by SYAUQIZAIDAN KHAIRAN KHALAF**
