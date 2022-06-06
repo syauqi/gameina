@@ -65,6 +65,8 @@ Halaman demo untuk sementara tidak ada dikarenakan layanan hosting yang tidak te
 
 <h2 id="account">🔑 —— Daftar Akun yang Tersedia</h2>
 
+Berikut adalah daftar akun untuk keperluan testing saat anda mencoba aplikasi pertama kali, nemun anda juga bisa membuat akun dengan register di halaman pendaftaran
+
 | Role      | Email             | Password    | URL                                        |
 | --------- | ----------------- | ----------- | ------------------------------------------ |
 | Admin     | admin@gmail.com   | 123admin123 | http://localhost/gameina/welcome/admin     |
@@ -78,6 +80,8 @@ Halaman demo untuk sementara tidak ada dikarenakan layanan hosting yang tidak te
 <br>
 
 <h2 id="depedencies">💾 —— Prasyarat yang Diperlukan</h2>
+
+Beriku adalah daftar layanan dan aplikasi yang wajib dan diperlukan selama anda menjalankan aplikasi GameINA jika anda belum menginstall nya maka disarankan untuk menginstall nya terlebih dahulu
 
 - PHP 8 & Web Server [XAMPP, LAMPP, MAMP]
 - Web Browser [Chrome, Firefox, Safari & Opera]
