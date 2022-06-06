@@ -1,93 +1,127 @@
 <h1 align="center">Selamat datang di GameINA! 👋</h1>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/46257169/85118696-ddfeaa80-b24a-11ea-8a9e-0cdb671fb755.png" alt="GameINA"/>
+<img src="https://user-images.githubusercontent.com/46257169/172173142-bdc793c1-b6c3-49eb-865b-a51cab78dad3.png" alt="GameINA"/>
+</p>
+
+<p></p>
+<h4 align="center">Website platform portal game Indonesia yang dibuat dengan <a href="https://codeigniter.com/" target="_blank">Codeigniter</a>.</h4>
+<p></p>
+
+<p align="center">
+	<img src="https://img.shields.io/github/issues/Syauqizaidan/Learnify?style=flat-square">
+	<img src="https://img.shields.io/github/stars/Syauqizaidan/Learnify?style=flat-square"> 
+	<img src="https://img.shields.io/github/forks/Syauqizaidan/Learnify?style=flat-square">
+	<img src="https://img.shields.io/github/license/Syauqizaidan/Learnify?style=flat-square">
+	<img src="https://img.shields.io/badge/maintained%3F-no-red.svg?style=flat-square">
+	<img src="https://img.shields.io/github/followers/syauqi.svg?style=flat-square&label=followers">
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/github/issues/Syauqizaidan/Learnify?style=flat-square">
-<img src="https://img.shields.io/github/stars/Syauqizaidan/Learnify?style=flat-square"> 
-<img src="https://img.shields.io/github/forks/Syauqizaidan/Learnify?style=flat-square">
-<img src="https://img.shields.io/github/license/Syauqizaidan/Learnify?style=flat-square">
-<img src="http://hits.dwyl.com/syauqizaidan/https://githubcom/Syauqizaidan/Learnify.svg">
-<img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square">
-<img src="https://img.shields.io/github/followers/syauqi.svg?style=flat-square&label=Follow&maxAge=2592000">
+  <a href="#tentang">Tentang Gameina</a> •
+  <a href="#fitur">Fitur</a> •
+  <a href="#download">Download & Install</a> •
+  <a href="#account">Testing Account</a> •
+  <a href="#support">Support</a> •
+  <a href="#license">Lisensi</a>
 </p>
+ 
+<h2 id="tentang">🕹 —— Tentang GameINA</h2>
+Website ini berperan sebagat platform portal game Indonesia [seperti steam dari valve] yang dilengkapi game market, website-based game dan layanan top-up [coming-soon] yang dibuat untuk developer Indonesia memasarkan game yang mereka buat.
 
-### 🤔 Apa itu Gameina?
-Web Platform Portal Game Indonesia yang dibuat oleh <a href="https://github.com/syauqi"> SYAUQIZAIDAN KHAIRAN KHALAF </a> . **GameINA adalah Web Portal Game Indonesia yang dilengkapi Game Market, Website Based Game dan Layanan Top-up yang dibuat untuk membantu para developer di Indonesia** GameINA dibuat ditujukan agar para developer dan publisher indonesia dapat memasarkan gamenya di platform game milik negaranya sendiri.
+<h2 id="fitur">✨ —— Fitur yang Tersedia</h2>
 
-### 🎉 Kenapa dibuat Open Source?
-Saya buat Open Souce karena sebenarnya project ini belum sepenuhnya jadi. Masih banyak hal yang harus ditambahkan, oleh karena itu saya jadikan open-source agar bisa dikembangkan sama sama.
+- Authentication
+  - User login
+  - User registration dengan verifikasi email
+- Website Based Game [game berbasis website]
+  - Adventure
+  - Action
+  - FPS
+  - Multiplayer
+  - Lain-lain
+- Game Data Management
+  - Publisher [upload game]
+  - User [beli game]
+- Layanan Top-up [coming soon]
+  - Mobile Legends
+  - Free Fire
+  - Arena of Valor
 
-### 🤨 Fitur apa saja yang tersedia di learnify?
-- User login system
-- User Registration w/ email verification ( Dapat menghubungi saya untuk mengaktifkan feature tersebut )
-- Terdapat banyak game dengan berbagai kategori yang bisa kalian mainkan di web!
-- Publisher, user & game data management
-- Purchase, upload & game management
-- And manymore!
+## 🏠 —— Demo & Overview
 
-### 🏠 <a href="#">Homepage</a>
-**Halaman Homepage & Dokumentasi project ini sedang saya kembangkan.** oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
+Halaman demo untuk sementara tidak ada dikarenakan layanan hosting yang tidak tersedia untuk deploy aplikasi ini, kalian dapat mendownload aplikasi ini lalu menjalankan secara local di komputer anda.
 
-### ✨ <a href="#">Demo</a>
-**Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang.** Kalian cukup fork lalu clone dan jalankan di localhost saja ya! atau kalian bisa download project ini via github apabila kalian belum familiar dengan github.
+## 📆 —— Release Date
 
-### 📆 <a href="#">Release Date</a>
-- Release date : 28 February 2020
-- Public Release : 19 June 2020
+- Release date : 28 Februari 2020
+- Public release : 19 Juni 2020
 
-------------
+<br>
 
- ### 👤 Default Account for testing
-	
-**Admin Default Account**
-- ../gameina/welcome/admin
-- Email : admin@gmail.com 
-- Password : 123admin123
+---
 
-**User Default Account**
-- Email : Dummy@gmail.com
-- Password : 123456
+<br>
 
-**Publisher Default Account**
-- ../GameINA/welcome/publisher
-- Email : Maantan@gmail.com
-- Password : 123456
+<h2 id="account">🔑 —— Daftar Akun yang Tersedia</h2>
 
-------------
+| Role      | Email             | Password    | URL                                        |
+| --------- | ----------------- | ----------- | ------------------------------------------ |
+| Admin     | admin@gmail.com   | 123admin123 | http://localhost/gameina/welcome/admin     |
+| User      | dummy@gmail.com   | 123456      | http://localhost/gameina/welcome/          |
+| Publisher | maantan@gmail.com | 123456      | http://localhost/gameina/welcome/publisher |
 
-### 🧐 Prasyarat yang diperlukan 
-- Versi PHP7 ke atas dikarenakan saya memakai function dari PHP7
-- Web Browser ( Chrome, Firefox, Safari & Opera )
-- Internet ( Karena saya memakai CDN Bootstrap )
-- XAMPP ( Atau apps web server lain )
+<br>
 
-## 💻 Install
-- Download GameINA atau fork lalu clone di computer kalian.
-- Upload database "gameina.sql" ke dbms favourite kalian.
-- Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
-- Selamat Menikmati !
+---
 
-## 🧑 Author
+<br>
 
-👤 <a href="https://web.facebook.com/syaauqi"> **SYAUQIZAIDAN KHAIRAN KHALAF**</a>
-- Twitter : <a href="https://twitter.com/syaaauqi"> @syaaauqi</a>
-- Facebook : <a href="https://web.facebook.com/syaaauqi"> Syauqi Zaidan Khairan Khalaf</a>
-- Instagram : <a href="https://www.instagram.com/syaufy/">@syaufy </a>
-- Dribbble : <a href="https://dribbble.com/syaufy">@syaufy </a>
-- Behance :  <a href="https://www.behance.net/syaufy">@syaufy </a>
+<h2 id="depedencies">💾 —— Prasyarat yang Diperlukan</h2>
 
+- PHP 8 & Web Server [XAMPP, LAMPP, MAMP]
+- Web Browser [Chrome, Firefox, Safari & Opera]
+- Internet [Karena menggunakan banyak CDN]
 
-## 🤝 Contributing
-Contributions, issues and feature requests di persilahkan.
-Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!**
+<h2 id="download">🐱‍💻 —— Panduan Menjalankan & Install Aplikasi</h2>
 
-## 📝 License
-- Copyright © 2020 SYAUQIZAIDAN KHAIRAN KHALAF
-- **GameINA is open-sourced software licensed under the MIT license**
+Untuk menjalankan aplikasi atau web ini kamu harus install XAMPP dan mempunyai setidaknya satu web browser yang terinstall di komputer anda.
 
-------------
+```bash
+# Clone repository ini atau download di
+$ git clone https://github.com/syauqi/gameina.git
 
-**Made with ❤️ by SYAUQIZAIDAN KHAIRAN KHALAF**
+# Buat database
+Buat database dengan nama "gameina" di DMBS [phpmyadmin, dll]
+
+# Upload database
+Arahkan folder ke gameina/database/gameina.sql & upload ke dbms [phpmyadmin]
+
+# Buka browser
+http://localhost/gameina/welcome
+
+# Enjoy, jika ingin login maka liat panduan akun diatas
+```
+
+<h2 id="support">💌 —— Dukungan</h2>
+
+Kalian bisa mendukung saya di platform trakteer! Dukungan kalian akan sangat membantu untuk saya, namun dengan anda star project ini juga sudah sangat membantu lho!
+
+<p></p>
+
+<a href="https://trakteer.id/syaufy" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-5.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya"></a>
+
+<h2 id="kontribusi">🤝 —— Kontribusi</h2>
+
+Contributions, issues and feature requests sangat saya apresiasi karena aplikasi ini jauh dari kata sempurna. Jangan ragu untuk pull request dan membuat perubahan pada project ini.
+
+Berhubung Project ini saya selesaikan sendiri, namun banyak fitur dan banyak hal yang bisa diperbaiki maka bantuan kalian sangat saya apresiasi.
+
+<h2 id="license">📝 —— Lisensi</h2>
+
+- Copyright © 2022 SYAUQIZAIDAN KHAIRAN KHALAF
+- GameINA adalah aplikasi web open-source yang berlisensi dibawah lisensi MIT
+
+---
+
+**<p align="center">Made with ❤️ by SYAUQIZAIDAN KHAIRAN KHALAF</p>**
