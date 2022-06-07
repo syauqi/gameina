@@ -29,7 +29,7 @@
 <h2 id="tentang">🕹 Tentang GameINA</h2>
 Website ini berperan sebagat platform portal game Indonesia [seperti steam dari valve] yang dilengkapi game market, website-based game dan layanan top-up [coming-soon] yang dibuat untuk developer Indonesia memasarkan game yang mereka buat.
 
-<h2 id="fitur">✨ Fitur yang Tersedia</h2>
+<h2 id="fitur">✨ Fitur Tersedia</h2>
 
 - Authentication
   - User login
@@ -57,13 +57,7 @@ Halaman demo untuk sementara tidak ada dikarenakan layanan hosting yang tidak te
 - Release date : 28 Februari 2020
 - Public release : 19 Juni 2020
 
-<br>
-
----
-
-<br>
-
-<h2 id="account">🔑 Daftar Akun yang Tersedia</h2>
+<h2 id="account">🔑 Daftar Akun Tersedia</h2>
 
 Berikut adalah daftar akun untuk keperluan testing saat anda mencoba aplikasi pertama kali, nemun anda juga bisa membuat akun dengan register di halaman pendaftaran
 
@@ -72,12 +66,6 @@ Berikut adalah daftar akun untuk keperluan testing saat anda mencoba aplikasi pe
 | Admin     | admin@gmail.com   | 123admin123 | http://localhost/gameina/welcome/admin     |
 | User      | dummy@gmail.com   | 123456      | http://localhost/gameina/welcome/          |
 | Publisher | maantan@gmail.com | 123456      | http://localhost/gameina/welcome/publisher |
-
-<br>
-
----
-
-<br>
 
 <h2 id="depedencies">💾 Prasyarat yang Diperlukan</h2>
 
