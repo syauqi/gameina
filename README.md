@@ -9,10 +9,10 @@
 <p></p>
 
 <p align="center">
-	<img src="https://img.shields.io/github/issues/Syauqizaidan/Learnify?style=flat-square">
-	<img src="https://img.shields.io/github/stars/Syauqizaidan/Learnify?style=flat-square"> 
-	<img src="https://img.shields.io/github/forks/Syauqizaidan/Learnify?style=flat-square">
-	<img src="https://img.shields.io/github/license/Syauqizaidan/Learnify?style=flat-square">
+	<img src="https://img.shields.io/github/issues/syauqi/gameina?style=flat-square">
+	<img src="https://img.shields.io/github/stars/syauqi/gameina?style=flat-square"> 
+	<img src="https://img.shields.io/github/forks/syauqi/gameina?style=flat-square">
+	<img src="https://img.shields.io/github/license/syauqi/gameina?style=flat-square">
 	<img src="https://img.shields.io/badge/maintained%3F-no-red.svg?style=flat-square">
 	<img src="https://img.shields.io/github/followers/syauqi.svg?style=flat-square&label=followers">
 </p>
